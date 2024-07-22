@@ -4,11 +4,13 @@
 */
 body {
     font-family: Arial, Helvetica, sans-serif ;
+    background-color: #1F0F53;
 }
 img {
     max-width: 100% ;
     width: auto ;
     height: auto ;
+    display: block;
 }
 input, select, button, textarea {
     max-width: 100% ;
@@ -16,17 +18,30 @@ input, select, button, textarea {
 meter, progress, output {
     max-width: 100% ;
 }
+div#coolimage {
+    justify-content: center;
+    text-align: center;
+}
+div#sidecolleft{
+    float:left ;
+    width:20% ;
+    background-color: #1F0F53;
+}
 div#tswsidecol {
     float: right ;
     width: 20% ;
     color: #000 ;
-    background-color: #fff ;
+    background-color: #1F0F53 ;
+
+}
+a {
+    display: block;
 }
 div#tswcontent {
     float: right ;
     width: 80% ;
     color: #000 ;
-    background-color: #fff ;
+    background-color:#1F0F53;
 
 }
 @media only screen and (max-width: 629px) {
@@ -45,7 +60,7 @@ div#tswcontproper {
 }
 div#tswcontainer {
     color: inherit ;
-    background-color: #fff ;
+    background-color: #1F0F53 ;
 }
 div#tswsideproper, div#tswothersideproper {
     padding-left: 5px ;
@@ -59,7 +74,7 @@ div#tswsideproper, div#tswothersideproper {
 */
 
 #tswcssbuttons {
-    width: 180px ;
+    width: 250px ;
     max-width: 100% ;
     text-align: center ;
 }
@@ -73,16 +88,20 @@ div#tswsideproper, div#tswothersideproper {
     padding: 0 ;
     display: block ;
     list-style: none ;
-    font-family: Arial, Helvetica, sans-serif ;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
+
 #tswcssbuttons li a {
-    color: #ffff00 ;
-    background-color: #b30000 ;
-    border: 1px outset #ff8080 ;
+    color: #000 ;
+    background-color: #1F0F53 ;
+    border: 4px outset #ff6cab ;
     text-decoration: none ;
     display: block ;
 }
 #tswcssbuttons li a:hover {
     color: #000000 ;
-    background-color: #ffbfbf ;
+    background-color: #ff6cab ;
 }
