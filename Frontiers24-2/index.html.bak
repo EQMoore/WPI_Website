@@ -13,44 +13,26 @@
       rel="stylesheet">
   </head>
   <body>
-    <div id="tswcontainer">
-      <div id="tswcontent">
-        <div id="tswcontproper">
-          <!-- start of content column: insert your content here -->
-          <h1>Welcome</h1>
-          <p> Placeholder content. Replace everything here with your actual
-            content. </p>
-          <p> If you want a navigation menu for your side column that looks like
-            the one on thesitewizard.com, you can generate your own and
-            customize it, with the <a href="https://www.thesitewizard.com/wizards/css-menu-buttons.shtml">Navigation
-              Menu Wizard</a>. It's free, just like the <a href="https://www.thesitewizard.com/wizards/layout.shtml">Layout
-              Wizard</a> that you used to create this. </p>
-          <p> And if you want a contact form (ie, one that your visitors can use
-            to reach you), go to the <a href="https://www.thesitewizard.com/wizards/feedbackform.shtml">Feedback
-              Form Wizard</a> to create one. Yes, it's free too. </p>
-          <p> Okay, that's it. I've run out of meaningful things to say for this
-            placeholder content, and can't be bothered to think up any more
-            stuff that you're just going to delete anyway. </p>
-          <p> All the best for your site! </p>
-          <p>&nbsp;</p>
-          <!-- end of content column: put your content above this line --> </div>
-      </div>
-      <div id="tswsidecol">
-        <div id="tswsideproper">
-          <!-- start of side column: insert your navigation menu, etc, here -->
-          <p> </p>
-          <div id="tswcssbuttons">
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="aboutme.html">About Me</a></li>
-              <li><a href="mytown.html"><img src="https://shrewsburyma.gov/ImageRepository/Document?documentID=11766"
-                    alt="Shrewsbury Massachusetts" title="Shrewsbury">My Town</a></li>
-            </ul>
-          </div>
-          <p></p>
-        </div>
-      </div>
-      <div style="clear: both;"></div>
+    <div class="coolimage">
+      <center> <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <img src="https://users.wpi.edu/%7Eemoore10/Frontiers24-2/Screenshot%202024-07-22%20143746.png">
+        <img src="https://users.wpi.edu/%7Eemoore10/Frontiers24-2/coolding.png">
+      </center>
+    </div>
+    <div class="strip">
+      <center> <a href="aboutme.html"><img src="img.png" class="responsive" width="5%"></a><br>
+        <br>
+        <br>
+        <br>
+        <a href="mytown.html"><img src="mytown.png" class="responsive"></a><br>
+        <br>
+        <br>
+        <br>
+        <a href="game.html"><img src="discoball.png" class="responsive"></a> </center>
     </div>
   </body>
 </html>

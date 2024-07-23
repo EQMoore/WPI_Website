@@ -1,0 +1,32 @@
+body {
+    background-color: #1F0F53;
+}
+p {
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 50px ;
+}
+h1 {
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 70px ;
+}
+img.top {
+    width: 95%;
+    height: auto;
+        border-radius: 10px;
+        background: linear-gradient(to right, #a28824, #F7CAC9);
+        padding: 5px;
+}
+table {
+    justify-content: center;
+    justify-items: center;
+}
