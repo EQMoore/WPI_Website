@@ -132,4 +132,8 @@ img.icon:hover {
 transition: transform 150ms ease-in-out;
     transform: scale(120%);
 }
+.iconleft{
+    text-align: right;
+    align-self: right;
+}
 

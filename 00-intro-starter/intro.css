@@ -1,0 +1,96 @@
+/* This is the CSS decorator */
+/* SELECTOR PRIORITY
+   0. !important
+   1. #tag (single element)
+   2. .class (multiple elements of any type)
+   3. elementtype (all elements of one type)
+   4. * (all elements)
+ */
+body.normal {
+    background: linear-gradient(-45deg, rgba(42,157,143,1), rgba(233,196,106,1), rgba(231,111,81,1));
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+  
+  /*
+    background: rgb(42,157,143);
+    background: linear-gradient(90deg, rgba(42,157,143,1) 0%, rgba(233,196,106,1) 50%, rgba(231,111,81,1) 100%);
+    */
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+body.dark {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+  
+  /*
+    background: rgb(42,157,143);
+    background: linear-gradient(90deg, rgba(42,157,143,1) 0%, rgba(233,196,106,1) 50%, rgba(231,111,81,1) 100%);
+    */
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+p.normal{
+    border-radius: 25px;
+    background: #264653;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    opacity: 75%;
+    transition: all 1s ease-in;
+}
+p.normal:hover {
+  transition: all 1s ease-in;
+  transition: opacity 100ms linear;
+  opacity: 100%;
+}
+button {
+  border-radius: 3px 3px 0px 0px; 
+  background: #264653;
+  padding: 20px;
+  width: 100px;
+  height: 25px;
+  opacity: 75%;
+  transition: all 1s ease-in;
+}
+button:hover {
+  transition: all 1s ease-in;
+  transition: opacity 100ms linear;
+  opacity: 100%;
+  transition: border-radius 100ms linear;
+  border-radius: 30px;
+}
+p.orange {
+  border-radius: 25px;
+    background: orange;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    opacity: 75%;
+    transition: all 1s ease-in;
+}
+p.orange:hover {
+  transition: all 1s ease-in;
+  transition: opacity 100ms linear;
+  opacity: 100%;
+}

@@ -1,0 +1,40 @@
+body {
+    background-color: aqua;
+    animation-name: body-anim;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+body>div {
+    width:20%;
+    height: 30vmin;
+    background-color: blueviolet;
+    position: relative;
+}
+@keyframes body-anim {
+    0%,100%{
+        background-color: aqua;
+    }
+    50% {
+        background-color: blue;
+    }
+}
+body>div>div {
+    width: 10%;
+    aspect-ratio: 1/1;
+    background-color: aliceblue;
+    position: absolute;
+    left: 10px;
+    top: 40%;
+    animation: swim-anim 0.8s linear infinite;
+}
+@keyframes swim-anim{
+    0%,100% {
+        width: 10%;
+        left:10px;
+    }
+    50% {
+        width:12.5%;
+        left:50%
+    }
+}
